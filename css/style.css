@@ -1,7 +1,14 @@
 body {
-    background-color: black;
     color: white;
     text-align: center;
+    background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 table {
@@ -20,13 +27,27 @@ table {
 }
 
 .floor {
-    background-color: gray
+    background-color: rgb(163, 157, 157)
 }
 
 .wall {
-    background-color: brown
+    background-color: rgb(44, 44, 165);
 }
 
 .passage {
-    background-color: gray
+    background-color: rgb(163, 157, 157);
+}
+
+.restart {
+    border-radius: 50px;
+    outline: none;
+    background-color: red;
+    height: 40px;
+    margin-top: 10px;
+}
+
+h1,
+h2 {
+    margin-top: 10px;
+    color: red;
 }
